@@ -1,0 +1,28 @@
+event,market,outcome,bookmaker,odds
+Harbor City v Northgate,match_result,home,BookA,2.45
+Harbor City v Northgate,match_result,home,BookB,2.50
+Harbor City v Northgate,match_result,home,BookC,2.60
+Harbor City v Northgate,match_result,draw,BookA,3.60
+Harbor City v Northgate,match_result,draw,BookB,3.40
+Harbor City v Northgate,match_result,draw,BookC,3.30
+Harbor City v Northgate,match_result,away,BookA,2.90
+Harbor City v Northgate,match_result,away,BookB,3.30
+Harbor City v Northgate,match_result,away,BookC,2.80
+Player One v Player Two,match_winner,player_one,BookA,2.10
+Player One v Player Two,match_winner,player_one,BookB,1.95
+Player One v Player Two,match_winner,player_one,BookC,1.98
+Player One v Player Two,match_winner,player_two,BookA,1.80
+Player One v Player Two,match_winner,player_two,BookB,2.05
+Player One v Player Two,match_winner,player_two,BookC,1.90
+Riverside v Lakeport,moneyline,riverside,BookA,-150
+Riverside v Lakeport,moneyline,riverside,BookB,-140
+Riverside v Lakeport,moneyline,riverside,BookC,-155
+Riverside v Lakeport,moneyline,lakeport,BookA,+125
+Riverside v Lakeport,moneyline,lakeport,BookB,+120
+Riverside v Lakeport,moneyline,lakeport,BookC,+130
+Eastfield v Westbrook,total_goals_2.5,over,BookA,1.91
+Eastfield v Westbrook,total_goals_2.5,over,BookB,1.87
+Eastfield v Westbrook,total_goals_2.5,over,BookC,1.95
+Eastfield v Westbrook,total_goals_2.5,under,BookA,1.95
+Eastfield v Westbrook,total_goals_2.5,under,BookB,2.00
+Eastfield v Westbrook,total_goals_2.5,under,BookC,1.89
