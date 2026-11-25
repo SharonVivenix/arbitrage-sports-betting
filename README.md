@@ -124,7 +124,7 @@ Harbor City v Northgate | match_result  book 96.54%  margin 3.58%
 
 The example feed holds four markets. The moneyline and the total goals market look tempting line by line but their best prices still sum to 101.8 and 101.3 percent, so the scanner skips them. Use `--min-margin 2` to ignore anything under 2 percent, which is roughly where fees, rounding and price movement eat the rest.
 
-For an operator the same scan answers a different question: which of our prices are the outlier leg in an arbitrage right now? A price that keeps showing up as one leg of a live arb is a price that is about to attract the wrong customers.
+For an operator the same scan answers a different question: which of its prices are the outlier leg in an arbitrage right now? A price that keeps showing up as one leg of a live arb is a price that is about to attract the wrong customers.
 
 ## Sports betting arbitrage from the operator side
 
@@ -170,7 +170,7 @@ Some bookmakers, usually those that price off the sharpest market, accept arbitr
 
 Every signal above is computed per account. Once an arber is limited, the usual next move is a new account, often opened under a relative's or a friend's identity and funded from a different card. Inside one bet log that shows up as a brand new customer with a clean history, and every per account model starts from zero again.
 
-That is where the problem moves from odds to identity, and it is the same problem as [multi accounting](https://www.idenfy.com/blog/multi-accounting/) for bonus abuse. Document verification and a liveness check at signup tie the account to one real person, and repeating face authentication at withdrawal confirms that the person collecting the winnings is the one who opened the account. iDenfy's [identity verification for gambling](https://www.idenfy.com/identity-verification-for-gambling/) covers that layer together with AML screening and proxy detection. iDenfy provides the verification step. The operator keeps its licence obligations and decides what to do with a match.
+That is where the problem moves from odds to identity, and it is the same problem as multi accounting for bonus abuse. Document verification and a liveness check at signup tie the account to one real person, and repeating face authentication at withdrawal confirms that the person collecting the winnings is the one who opened the account. iDenfy's [identity verification for gambling](https://www.idenfy.com/identity-verification-for-gambling/) covers that layer together with AML screening and proxy detection. iDenfy provides the verification step. The operator keeps its licence obligations and decides what to do with a match.
 
 ## Is arbitrage betting legal?
 
@@ -198,11 +198,11 @@ examples/bets.example.csv    120 settled bets, six accounts, two arbers
 tests/test_arb.py            14 unit tests covering odds parsing, staking, scanning, scoring
 ```
 
-## Contributing and credits
+## Contributing
 
 Corrections to the math, new odds formats and better operator signals are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-The concepts here are adapted from iDenfy's guide [How Can You Detect Arbitrage in Sports Betting?](https://www.idenfy.com/blog/arbitrage-sports-betting/), and iDenfy is the publisher of that source. The calculator, the scanner, the scoring model and the example data are independent work. Nothing in this repo is legal or financial advice.
+The calculator, the scanner, the scoring model and the example data are original work. Nothing in this repo is legal or financial advice.
 
 ## License
 
